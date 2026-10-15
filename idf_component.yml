@@ -1,4 +1,4 @@
-version: "0.0.3"
-description: "A simple example component"
-url: "https://github.com/SolderedElectronics/soldered-esp-idf-component-template"
+version: "1.0.0"
+description: "Soldered ADS-B 1090MHz Receiver ESP32-S3 component for the Aerobits TT-SC1b module"
+url: "https://github.com/SolderedElectronics/Soldered-ADSB-Reciever-ESP-IDF-Component"
 license: "GPL-3.0"

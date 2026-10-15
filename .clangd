@@ -1,5 +1,5 @@
 CompileFlags:
-  CompilationDatabase: examples/basic/build
+  CompilationDatabase: examples/read_aircraft_csv/build
   Remove:
     - -mlongcalls
     - -fno-shrink-wrap
