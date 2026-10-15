@@ -1,0 +1,3 @@
+dependencies:
+  Soldered-ADSB-Reciever-ESP-IDF-Component:
+    path: "../../.."
