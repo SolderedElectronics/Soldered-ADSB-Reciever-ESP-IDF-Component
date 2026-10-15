@@ -45,14 +45,14 @@ void app_main(void)
 
     // Settings can only be written in the CONFIGURATION state
     esp_err_t err;
-    do{
-    err = adsb_receiver_enter_configuration(&adsb);
-    if (err != ESP_OK) {
-        ESP_LOGE(TAG, "Failed to enter CONFIGURATION state: %s", esp_err_to_name(err));
-        //return;
-    }
-    vTaskDelay(pdMS_TO_TICKS(500));
-    }while(err != ESP_OK);
+    do {
+        err = adsb_receiver_enter_configuration(&adsb);
+        if (err != ESP_OK) {
+            ESP_LOGE(TAG, "Failed to enter CONFIGURATION state: %s", esp_err_to_name(err));
+            //return;
+        }
+        vTaskDelay(pdMS_TO_TICKS(500));
+    } while (err != ESP_OK);
 
     // --- ADS-B decoded output protocol ---
     print_result("ADSB_RX_PROTOCOL_DECODED=CSV",
